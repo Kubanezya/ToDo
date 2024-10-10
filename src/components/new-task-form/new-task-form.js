@@ -32,18 +32,3 @@ export default class NewTaskForm extends Component {
     );
   }
 }
-
-// const NewTaskForm  = () => {
-//     return (
-//         <form>
-//             <input className="new-todo"
-//                    placeholder="What needs to be done?"
-//                    autoFocus
-//                    onChange={ this.onInputChange }
-//             />
-
-//         </form>
-//     );
-// };
-
-// export default NewTaskForm ;

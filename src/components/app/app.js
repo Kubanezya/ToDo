@@ -10,9 +10,9 @@ export default class App extends Component {
 
   state = {
     todoData: [
-      this.createTodoTask('Completed task', new Date('2024-03-05T13:24:00')),
-      this.createTodoTask('Editing task', new Date('2024-03-05T13:24:00')),
-      this.createTodoTask('Active task', new Date('2024-03-05T13:24:00')),
+      this.createTodoTask('Completed task', new Date('2024-10-01T00:00:00')),
+      this.createTodoTask('Editing task', new Date('2024-10-01T00:00:00')),
+      this.createTodoTask('Active task', new Date('2024-10-01T00:00:00')),
     ],
     filter: 'all',
   };
